@@ -8,6 +8,7 @@ GPIO.setup(26, GPIO.OUT)
 GPIO.setup(19, GPIO.OUT)
 GPIO.setup(17, GPIO.OUT)
 GPIO.setup(27, GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
 GPIO.setup(6, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 def button_callback(channel):
