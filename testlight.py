@@ -12,6 +12,6 @@ def blinkOnce(pin):
 
 while True:
     blinkOnce(20)
-    blinkOnce(25)
+   
 
 GPIO.cleanup()
