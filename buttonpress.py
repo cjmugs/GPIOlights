@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-from testlight import blinkOnce
+
 
 # initialize the GPIO
 GPIO.setwarnings(False)
