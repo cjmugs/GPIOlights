@@ -8,10 +8,7 @@ GPIO.setup(25, GPIO.OUT)
 
 def blinkOnce(pin):
     GPIO.output(pin, True)
-    time.sleep(.10)
-    GPIO.output(pin, False)
-    time.sleep(.10)
-
+    
 
 while True:
     blinkOnce(20)
